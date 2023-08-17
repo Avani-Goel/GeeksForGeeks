@@ -8,7 +8,7 @@ class Solution{
     void insertAtIndex(int arr[], int sizeOfArray, int index, int element)
     {
         int i;
-        for (i=sizeOfArray; i<index; i--)
+        for (i=sizeOfArray-1; i>=index; i--)
         {
             arr[i]=arr[i-1];
         }
@@ -17,3 +17,4 @@ class Solution{
         
     }
 };
+
